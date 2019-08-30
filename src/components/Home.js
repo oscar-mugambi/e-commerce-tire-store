@@ -11,7 +11,7 @@ const Home = (props) => {
           <span className="stuff">Mustral General Traders Limited</span> 
         </h1>
 
-        <a href="/productlist" className="thing">Discover Our products </a>
+        <a href="/ProductList" className="thing">Discover Our products </a>
         </div>
       </header>
 
