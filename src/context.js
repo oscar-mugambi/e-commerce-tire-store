@@ -27,7 +27,6 @@ export default class ProductProvider extends Component {
     storeProducts.forEach(item=>{
       const singleItem={...item};
       tempProducts =[...tempProducts,singleItem];
-
     }) 
     this.setState(()=>{
       return {products:tempProducts}

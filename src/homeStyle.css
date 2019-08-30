@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box; /* change box model so the borders and padding are no longer added to the total width and height */
+
+}
+ 
+.body{
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	font-size: 16px;
+	line-height:1.7;
+	color:#777;
+
+}
+
+.header{
+	 height:95vh; /* 95 pc of the view point height*/
+	 background: linear-gradient(to right bottom,
+	 	rgba(126,213,111,0.8),rgba(40,180,131,0.8)), url(business2.jpg);
+	 background-size:cover;
+	 background-position: top;
+	 clip-path:polygon(0 0,100% 0,100% 75vh,0 100%);
+}
+
+.textbox{
+	position:absolute;
+	top:45%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+
+}
+
+.stuff{
+	color:white;
+	text-transform: uppercase;
+	display: block;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 17px;
+}
+
+.thing{
+	text-transform: uppercase;
+	text-decoration:none;
+	padding: 15px 40px;
+	display: inline-block;
+	background-color:#fff;
+	color:#777;
+}

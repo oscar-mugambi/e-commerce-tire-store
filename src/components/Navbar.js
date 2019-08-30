@@ -8,12 +8,13 @@ import {ButtonContainer} from "./Button";
 
 export default class Navbar extends React.Component {
 	render() {
+
+    if (window.location.pathname === '/') return null;
 		return (
+
 		<NavWrapper className="navbar navbar-expand-sm  navbar-dark px-sm">
 		
-		<Link to='/'>
-			<img src={logo} alt='store' className="navbar-brand"/>
-		</Link>
+		{/*<Link to='/'><img src={logo} alt='store' className="navbar-brand"/></Link>*/}
 		<ul className="navbar-nav align-items-center">
 		<li className="nav-item ml-5"></li>
 		<Link to="/" className="nav-link"> Products</Link>
@@ -38,12 +39,6 @@ background:var(--mainBlue);
 	color:var(--mainWhite)!important;
 	font-size:1.3rem;
 	text-transform:capitalize;
-
-
-
-
-
-
 }
 `
 

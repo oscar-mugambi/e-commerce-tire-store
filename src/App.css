@@ -9,11 +9,12 @@
 body{
   font-family:'Oswald',sans-serif!important;
   background:var(--mainWhite)!important;
+
   color: var(--mainDark)!important;
 }
 
 .text-title{
-font-family:'Permanent Marker', cursive;
+font-family:'Lato', cursive;
 letter-spacing: 0.3rem;
 text-transform: uppercase;
 }
