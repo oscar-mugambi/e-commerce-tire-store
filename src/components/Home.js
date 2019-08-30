@@ -10,8 +10,11 @@ const Home = (props) => {
         <h1>
           <span className="stuff">Mustral General Traders Limited</span> 
         </h1>
-
-        <a href="/ProductList" className="thing">Discover Our products </a>
+         <Link to='/ProductList'>
+            
+        <button className="thing">Discover Our products >
+                 
+                </button> </Link>
         </div>
       </header>
 
