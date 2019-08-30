@@ -8,6 +8,8 @@ import {ButtonContainer} from "./Button";
 
 export default class Navbar extends React.Component {
 	render() {
+
+    if (window.location.pathname === '/') return null;
 		return (
 
 		<NavWrapper className="navbar navbar-expand-sm  navbar-dark px-sm">
