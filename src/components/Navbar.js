@@ -8,8 +8,6 @@ import {ButtonContainer} from "./Button";
 
 export default class Navbar extends React.Component {
 	render() {
-
-    
 		return (
 
 		<NavWrapper className="navbar navbar-expand-sm  navbar-dark px-sm">
